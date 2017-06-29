@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MStone - Resume Portfolio</title>
+    <title>Joshua Foxworth</title>
 
     <!-- CSS -->
     <!-- Bootstrap core CSS -->
@@ -40,7 +40,7 @@
 
         <div id="preloader">
             <div id="status">
-                <div class="status-mes"><h4>Mark Stone</h4></div>
+                <div class="status-mes"><h4>Joshua Foxworth</h4></div>
             </div>
         </div>
 
@@ -57,7 +57,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Mark Stone</a>
+                    <a class="navbar-brand" href="#">Joshua Foxworth</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -88,8 +88,8 @@
                     <div class="col-md-12">
 
                         <div class="hello wow bounceInDown">
-                            <h1>Hello, I'm Mark Stone</h1>
-                            <h3><span class="rotate">Visual Designer. | Front-end Developer. | C# Programmer.</span></h3>
+                            <h1>Hello, I'm Joshua Foxworth</h1>
+                            <h3><span class="rotate">Structural Engineer. | Web Developer. | Equality Activist.</span></h3>
                         </div>
 
                         <a href="#profile">
@@ -154,12 +154,12 @@
                 <div class="row">
 
                     <div class="col-md-12 headline wow bounceInDown">
-                        <h2>Mark Stone</h2>
-                        <p>Visual Designer. Front-end Developer. C# Programmer.</p>
+                        <h2>Joshua Foxworth</h2>
+                        <p>Structural Engineer. Web Developer. Equality Activist.</p>
                     </div>
 
                     <div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
-                        <img class="avatar" src="assets/images/photo.jpg" alt="">
+                        <img class="avatar" src="/images/drawingroom.jpg" alt="">
                     </div>
 
                     <div class="col-md-3 col-sm-6 wow bounceInUp">
