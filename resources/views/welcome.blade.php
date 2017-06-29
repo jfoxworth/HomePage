@@ -11,6 +11,7 @@
     <!-- CSS -->
     <!-- Bootstrap core CSS -->
     <!-- <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
     <!-- Owl Carousel -->
     <link href="/css/owl.theme.css" rel="stylesheet">
@@ -752,7 +753,8 @@
     <!-- jQuery -->
     <script src="/js/jquery-1.11.0.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="assets/bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="/js/bootstrap.min.js"></script>
     <!-- Background slider -->
     <script src="/js/jquery.backstretch.min.js"></script>
     <!-- OwlCarousel -->
