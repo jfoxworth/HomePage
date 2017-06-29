@@ -750,31 +750,31 @@
 
     <!-- Javascript files -->
     <!-- jQuery -->
-    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="/js/jquery-1.11.0.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <!-- Background slider -->
-    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="/js/jquery.backstretch.min.js"></script>
     <!-- OwlCarousel -->
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
     <!-- Modal for portfolio -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
     <!-- Text rotator -->
-    <script src="assets/js/jquery.simple-text-rotator.min.js"></script>
+    <script src="/js/jquery.simple-text-rotator.min.js"></script>
     <!-- Waypoints -->
-    <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="/js/jquery.waypoints.js"></script>
     <!-- CountTo -->
-    <script src="assets/js/jquery.countTo.js"></script>
+    <script src="/js/jquery.countTo.js"></script>
     <!-- WOW - Reveal Animations When You Scroll -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="/js/wow.min.js"></script>
     <!-- Smooth scroll -->
-    <script src="assets/js/smoothscroll.js"></script>
+    <script src="/js/smoothscroll.js"></script>
     <!-- Fitvids -->
-    <script src="assets/js/jquery.fitvids.js"></script>
+    <script src="/js/jquery.fitvids.js"></script>
     <!-- jqBootstrapValidation -->
-    <script src="assets/js/jqBootstrapValidation.js"></script>
+    <script src="/js/jqBootstrapValidation.js"></script>
     <!-- Custom scripts -->
-    <script src="assets/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
 
 </body>
 </html>
