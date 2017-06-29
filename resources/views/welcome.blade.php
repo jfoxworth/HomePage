@@ -1,317 +1,780 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <title>Joshua Foxworth - Man, myth, legend</title>
+    <title>MStone - Resume Portfolio</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <!-- CSS -->
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
 
-        <!-- CSS -->
-        <link href="/css/app.css" rel="stylesheet" type="text/css">
+    <!-- Owl Carousel -->
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
 
+    <!-- Magnific-popup lightbox -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
 
-    </head>
-    
+    <!-- Simple text rotator -->
+    <link href="assets/css/simpletextrotator.css" rel="stylesheet">
 
+    <!-- Font Awesome CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+
+    <!-- Animate css -->
+    <link href="assets/css/animate.css" rel="stylesheet">
+
+    <!-- Custom styles CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" media="screen">
+</head>
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+    <div class="wrapper">
+
+        <!-- Preloader -->
+
+        <div id="preloader">
+            <div id="status">
+                <div class="status-mes"><h4>Mark Stone</h4></div>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="services.html">Services</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
-                            </li>
+        </div>
+
+        <!-- Navigation start -->
+
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Mark Stone</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#intro">home</a></li>
+                        <li><a href="#profile">Profile</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Navigation end -->
+
+        <!-- Intro section start -->
+
+        <section id="intro" class="section">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="hello wow bounceInDown">
+                            <h1>Hello, I'm Mark Stone</h1>
+                            <h3><span class="rotate">Visual Designer. | Front-end Developer. | C# Programmer.</span></h3>
+                        </div>
+
+                        <a href="#profile">
+                            <div class="mouse-icon">
+                                <div class="wheel"></div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div><!-- .row -->
+
+            </div><!-- .container -->
+
+        </section>
+
+        <!-- Intro section end -->
+
+        <!-- Profile contact callout section -->
+
+        <section id="profile-contact">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-sm-4 wow bounceInLeft">
+                        <div class="profile-item">
+                            <i class="fa fa-envelope-o"></i>
+                            <h5><a href="#">markstone@some.com</a></h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 wow bounceInUp">
+                        <div class="profile-item">
+                            <i class="fa fa-phone"></i>
+                            <h5>(1234) 1234-5678-1011</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 wow bounceInRight">
+                        <div class="profile-item">
+                            <i class="fa fa-map-marker"></i>
+                            <h5>144 Some Street, Some City, Some Country</h5>
+                        </div>
+                    </div>
+
+                </div><!-- .row -->
+
+            </div><!-- .container -->
+
+        </section>
+
+        <!-- Profile contact callout section -->
+
+        <!-- Profile section start -->
+
+        <section id="profile" class="section">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 headline wow bounceInDown">
+                        <h2>Mark Stone</h2>
+                        <p>Visual Designer. Front-end Developer. C# Programmer.</p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
+                        <img class="avatar" src="assets/images/photo.jpg" alt="">
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 wow bounceInUp">
+
+                        <div class="profile-widget">
+                            <h3>Skillset</h3>
+
+                            <h5>UX Design</h5>
+                            <div class="skill-bar">
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-off"></div>
+                            </div>
+
+                            <h5>HTML / CSS3 / SASS</h5>
+                            <div class="skill-bar">
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-off"></div>
+                                <div class="skill-rate-off"></div>
+                            </div>
+
+                            <h5>Javascript</h5>
+                            <div class="skill-bar">
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                            </div>
+
+                            <h5>Ajax</h5>
+                            <div class="skill-bar">
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-off"></div>
+                                <div class="skill-rate-off"></div>
+                                <div class="skill-rate-off"></div>
+                            </div>
+                        </div>
+
+                        <div class="profile-widget">
+                            <h3>Social Profiles</h3>
+                            <ul class="widget-social">
+                                <li><a href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
+                                <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div><!-- .col-md-3 -->
+
+                    <div class="col-md-6 col-sm-12 wow bounceInRight">
+                        <h3>Profesional Profile</h3>
+                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend. I am so happy, my dear friend.</p>
+                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                    </div>
+
+                </div><!-- .row -->
+
+            </div><!-- .container -->
+
+        </section>
+
+        <!-- Profile section end -->
+
+        <!-- Callout section start -->
+
+        <section id="stats" class="callout">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-12 hidden-xs wow bounceInLeft">
+                        <h3>My Stats</h3>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 wow bounceInDown">
+                        <div class="stat">
+                            <div class="stat-icon">
+                                <h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="32"></span></h2>
+                            </div>
+                            <h3>Cup of coffee</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 wow bounceInUp">
+                        <div class="stat">
+                            <div class="stat-icon">
+                                <h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="999"></span></h2>
+                            </div>
+                            <h3>Line of code</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 wow bounceInRight">
+                        <div class="stat">
+                            <div class="stat-icon">
+                                <h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="300"></span>+</h2>
+                            </div>
+                            <h3>Happy customers</h3>
+                        </div>
+                    </div>
+
+                </div><!-- .row -->
+
+            </div><!-- .container -->
+
+        </section>
+
+        <!-- Callout section end -->
+
+        <!-- Services section start -->
+
+        <section id="services" class="section">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 headline wow bounceInDown">
+                        <h2>What i can do</h2>
+                        <p>My Services.</p>
+                    </div>
+
+                    <div class="col-md-12">
+
+                        <div class="row">
+
+                            <div class="col-sm-4 wow bounceInLeft">
+                                <div class="service">
+                                    <div class="icon">
+                                        <i class="fa fa-pencil"></i>
+                                    </div>
+                                    <h4>Text rotator</h4>
+                                    <div class="text">
+                                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 wow bounceInUp">
+                                <div class="service">
+                                    <div class="icon">
+                                        <i class="fa fa-image"></i>
+                                    </div>
+                                    <h4>Slideshow</h4>
+                                    <div class="text">
+                                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 wow bounceInRight">
+                                <div class="service">
+                                    <div class="icon">
+                                        <i class="fa fa-cog"></i>
+                                    </div>
+                                    <h4>Easy configure</h4>
+                                    <div class="text">
+                                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- .row -->
+
+                        <div class="row">
+
+                            <div class="col-sm-4 wow bounceInUp" data-wow-delay=".2s">
+                                <div class="service">
+                                    <div class="icon">
+                                        <i class="fa fa-code"></i>
+                                    </div>
+                                    <h4>Clear code</h4>
+                                    <div class="text">
+                                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 wow bounceInUp" data-wow-delay=".4s">
+                                <div class="service">
+                                    <div class="icon">
+                                        <i class="fa fa-desktop"></i>
+                                    </div>
+                                    <h4>Responsive design</h4>
+                                    <div class="text">
+                                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 wow bounceInUp" data-wow-delay=".6s">
+                                <div class="service">
+                                    <div class="icon">
+                                        <i class="fa fa-life-ring"></i>
+                                    </div>
+                                    <h4>Support</h4>
+                                    <div class="text">
+                                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- .row -->
+
+                    </div><!-- .col-md-12 -->
+
+                </div><!-- .row -->
+
+            </div><!-- .container -->
+
+        </section>
+
+        <!-- Services section end -->
+
+        <!-- Callout section start -->
+
+        <section class="callout">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-3 hidden-xs wow bounceInLeft">
+                        <h3>My status</h3>
+                    </div>
+
+                    <div class="col-md-9 headline nomargin wow bounceInDown">
+                        <h3>I'm currently available for freelance work.</h3>
+                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                        <a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> Contact me</a>
+                    </div>
+
+                </div><!-- .row -->
+
+            </div><!-- .container -->
+
+        </section>
+
+        <!-- Callout section end -->
+
+        <!-- Resume section start -->
+
+        <section id="resume" class="section">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 headline wow bounceInDown">
+                        <h2>Resume</h2>
+                        <p>My education and experience.</p>
+                    </div>
+
+                </div><!-- .row -->
+
+                <div class="row resume-items">
+
+                    <div class="col-md-3 wow bounceInLeft">
+                        <h3>Education</h3>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
+                        <h4>Computer science</h4>
+                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                        <hr class="hidden-xs">
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+                        <h4><i class="fa fa-suitcase"></i> Stanford University</h4>
+                        <i class="fa fa-calendar"></i> 2013 - 2014
+                        <hr class="visible-xs">
+                    </div>
+
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+                        <h4>Visual designer</h4>
+                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                        <hr class="hidden-xs">
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+                        <h4><i class="fa fa-suitcase"></i> St. Patrick University</h4>
+                        <i class="fa fa-calendar"></i> 2013 - 2014
+                        <hr class="visible-xs">
+                    </div>
+
+                </div><!-- .row -->
+
+                <div class="row resume-items">
+
+                    <div class="col-md-3 wow bounceInLeft">
+                        <h3>Experience</h3>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
+                        <h4>Front-end developer / php programmer</h4>
+                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                        <hr class="hidden-xs">
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+                        <h4><i class="fa fa-suitcase"></i> Google</h4>
+                        <i class="fa fa-calendar"></i> 2013 - 2014
+                        <hr class="visible-xs">
+                    </div>
+
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+                        <h4>C# programmer</h4>
+                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                        <hr class="hidden-xs">
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+                        <h4><i class="fa fa-suitcase"></i> Microsoft</h4>
+                        <i class="fa fa-calendar"></i> 2013 - 2014
+                        <hr class="visible-xs">
+                    </div>
+
+                </div><!-- .row -->
+
+                <div class="row">
+
+                    <div class="col-md-6 col-md-offset-3 wow bounceInUp">
+                        <a href="#" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i> Download CV</a>
+                    </div>
+
+                </div><!-- .row -->
+
+            </div><!-- .container -->
+
+        </section>
+
+        <!-- Resume section end -->
+
+        <!-- Callout section start -->
+
+        <section id="clients" class="callout">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-3 hidden-xs wow bounceInLeft">
+                        <h3>Customers</h3>
+                    </div>
+
+                    <div class="col-md-9 wow bounceInRight">
+
+                        <div id="owl-clients" class="owl-carousel">
+
+                            <div class="owl-item">
+                                <img src="assets/images/logo/client160-3.png" alt="">
+                                <h4>Client 1</h4>
+                            </div>
+
+                            <div class="owl-item">
+                                <img src="assets/images/logo/client160-1.png" alt="">
+                                <h4>Client 2</h4>
+                            </div>
+
+                            <div class="owl-item">
+                                <img src="assets/images/logo/client160-3.png" alt="">
+                                <h4>Client 3</h4>
+                            </div>
+
+                            <div class="owl-item">
+                                <img src="assets/images/logo/client160-1.png" alt="">
+                                <h4>Client 4</h4>
+                            </div>
+
+                            <div class="owl-item">
+                                <img src="assets/images/logo/client160-3.png" alt="">
+                                <h4>Client 5</h4>
+                            </div>
+
+                            <div class="owl-item">
+                                <img src="assets/images/logo/client160-1.png" alt="">
+                                <h4>Client 6</h4>
+                            </div>
+
+                        </div>
+
+                    </div><!-- .col-md-9 -->
+
+                </div><!-- .row -->
+
+            </div><!-- .container -->
+
+        </section>
+
+        <!-- Callout section end -->
+
+        <!-- Portfolio section start -->
+
+        <section id="portfolio" class="section">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 headline wow bounceInDown">
+                        <h2>Portfolio</h2>
+                        <p>My best works.</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 wow bounceInLeft">
+                        <a href="assets/images/p1.jpg" class="pop-up" title="Caption 1">
+                            <div class="portfolio-item">
+                                <div class="portfolio-item-preview">
+                                    <img src="assets/images/p1.jpg" alt="">
+                                </div>
+                                <div class="portfolio-item-description">
+                                    <h3>Some work</h3>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 wow bounceInUp">
+                        <a href="https://vimeo.com/45830194" class="video-pop-up" title="Caption 2">
+                            <div class="portfolio-item">
+                                <div class="portfolio-item-preview">
+                                    <img src="assets/images/p2.jpg" alt="">
+                                </div>
+                                <div class="portfolio-item-description">
+                                    <h3>Some work</h3>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 wow bounceInRight">
+                        <a href="assets/images/p3.jpg" class="pop-up" title="Caption 3">
+                            <div class="portfolio-item">
+                                <div class="portfolio-item-preview">
+                                    <img src="assets/images/p3.jpg" alt="">
+                                </div>
+                                <div class="portfolio-item-description">
+                                    <h3>Some work</h3>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".2s">
+                        <a href="assets/images/p5.jpg" class="pop-up" title="Caption 4">
+                            <div class="portfolio-item">
+                                <div class="portfolio-item-preview">
+                                    <img src="assets/images/p5.jpg" alt="">
+                                </div>
+                                <div class="portfolio-item-description">
+                                    <h3>Some work</h3>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".4s">
+                        <a href="assets/images/p8.jpg" class="pop-up" title="Caption 5">
+                            <div class="portfolio-item">
+                                <div class="portfolio-item-preview">
+                                    <img src="assets/images/p8.jpg" alt="">
+                                </div>
+                                <div class="portfolio-item-description">
+                                    <h3>Some work</h3>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay=".6s">
+                        <a href="assets/images/p6.jpg" class="pop-up" title="Caption 6">
+                            <div class="portfolio-item">
+                                <div class="portfolio-item-preview">
+                                    <img src="assets/images/p6.jpg" alt="">
+                                </div>
+                                <div class="portfolio-item-description">
+                                    <h3>Some work</h3>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div><!-- .row -->
+
+            </div><!-- .container -->
+
+        </section>
+
+        <!-- Portfolio section end -->
+
+        <!-- Contact section start -->
+
+        <section id="contact" class="section">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 headline wow bounceInLeft">
+                        <h2>Contact Us</h2>
+                        <p>Drop us a line or give us a ring. We love to hear you.</p>
+                    </div>
+
+                    <div class="col-md-6 wow bounceInUp">
+
+                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+
+                        <ul class="icon-list">
+                            <li><i class="fa fa-fw fa-map-marker"></i>001 Some Street, Some City, US</li>
+                            <li><i class="fa fa-fw fa-phone"></i>123 4567 8910</li>
+                            <li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:">support@site.com</a></li>
+                            <li><i class="fa fa-fw fa-globe"></i><a href="">http://www.site.com</a></li>
                         </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html">Blog Post</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
 
-    <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Marketing Icons Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">
-                    Welcome to Modern Business
-                </h1>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.3.7</h4>
                     </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+
+                    <div class="col-md-6 wow bounceInRight">
+
+                        <form id="contact-form" role="form" novalidate>
+
+                            <div class="form-group">
+                                <label class="sr-only" for="name">Name</label>
+                                <input type="text" id="name" class="form-control" name="name" placeholder="Name" required="">
+                                <p class="help-block text-danger"></p>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="sr-only" for="email">Email address</label>
+                                <input type="email" id="email" class="form-control" name="email" placeholder="E-mail" required="">
+                                <p class="help-block text-danger"></p>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" name="message" rows="7" placeholder="Your message" required=""></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+
+                            <button type="submit" class="btn btn-custom-1">
+                                <i class="fa fa-bullhorn icon-before"></i> Send it
+                            </button>
+
+                        </form>
+
+                        <div id="contact-response"></div>
+
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+
+                </div><!-- .row -->
+
+            </div><!-- .container -->
+
+        </section>
+
+        <!-- Contact section end -->
+
+        <!-- Footer start -->
+
+        <footer id="footer">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <p class="copy">
+                            © 2014 Mark Stone, All Rights Reserved.
+                        </p>
                     </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.row -->
 
-        <!-- Portfolio Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Portfolio Heading</h2>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-        </div>
-        <!-- /.row -->
+                </div><!-- .row -->
 
-        <!-- Features Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Modern Business Features</h2>
-            </div>
-            <div class="col-md-6">
-                <p>The Modern Business template by Start Bootstrap includes:</p>
-                <ul>
-                    <li><strong>Bootstrap v3.3.7</strong>
-                    </li>
-                    <li>jQuery v1.11.1</li>
-                    <li>Font Awesome v4.2.0</li>
-                    <li>Working PHP contact form with validation</li>
-                    <li>Unstyled page elements for easy customization</li>
-                    <li>17 HTML pages</li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-            </div>
-            <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
-            </div>
-        </div>
-        <!-- /.row -->
+            </div><!-- .container -->
 
-        <hr>
-
-        <!-- Call to Action Section -->
-        <div class="well">
-            <div class="row">
-                <div class="col-md-8">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-                </div>
-                <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
-                </div>
-            </div>
-        </div>
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
         </footer>
 
-    </div>
-    <!-- /.container -->
+        <!-- Footer end -->
 
+    </div><!-- .wrapper -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/app.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
-
-</body>
-
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </footer>
-
-    </div>
-    <!-- /.container -->
-
+    <!-- Javascript files -->
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Background slider -->
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <!-- OwlCarousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Modal for portfolio -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Text rotator -->
+    <script src="assets/js/jquery.simple-text-rotator.min.js"></script>
+    <!-- Waypoints -->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!-- CountTo -->
+    <script src="assets/js/jquery.countTo.js"></script>
+    <!-- WOW - Reveal Animations When You Scroll -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Smooth scroll -->
+    <script src="assets/js/smoothscroll.js"></script>
+    <!-- Fitvids -->
+    <script src="assets/js/jquery.fitvids.js"></script>
+    <!-- jqBootstrapValidation -->
+    <script src="assets/js/jqBootstrapValidation.js"></script>
+    <!-- Custom scripts -->
+    <script src="assets/js/custom.js"></script>
 
 </body>
 </html>
