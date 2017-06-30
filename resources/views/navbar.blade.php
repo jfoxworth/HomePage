@@ -1,4 +1,4 @@
-@extends('main')
+@extends('welcome')
 
 @section('navbar')
 
