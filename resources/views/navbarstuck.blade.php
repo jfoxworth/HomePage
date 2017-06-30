@@ -1,7 +1,7 @@
 
     <!-- Navigation start -->
 
-    <nav class="navbar navbar-color navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-sticky navbar-fixed-top" role="navigation">
         <div class="container">
 
             <!-- Brand and toggle get grouped for better mobile display -->

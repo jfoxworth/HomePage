@@ -504,6 +504,38 @@ h3 > .fa {
 }
 
 /* ---------------------------------------------- /*
+ * Navigation Sticky
+/* ---------------------------------------------- */
+
+.navbar-sticky .nav li a:hover, 
+.navbar-sticky .nav li a:focus, 
+.navbar-sticky .nav li.active {
+	background: none;
+	outline: 0;
+	color: #EF4836;
+}
+
+.navbar-sticky {
+	font: 700 18px/1.2 'Montserrat', serif, sans-serif;
+	color: #FFF;
+}
+
+.navbar-sticky .navbar-nav > li.active {
+	border-bottom: 3px solid #FFF;
+}
+
+.navbar-sticky {
+	background: #FFF;
+}
+
+.navbar-sticky .navbar-nav > li > a,
+.navbar-sticky .navbar-nav .dropdown-menu > li > a {
+	color: #FFF;
+	font-size: 12px;
+}
+
+
+/* ---------------------------------------------- /*
  * Intro
 /* ---------------------------------------------- */
 
