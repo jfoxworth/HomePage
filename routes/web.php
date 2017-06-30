@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/resume', function () {
+    return view('resume');
+});
+
+Route::get('/bio', function () {
+    return view('bio');
+});
+
+Route::get('/skills', function () {
+    return view('skills');
+});

@@ -64,10 +64,14 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#intro">home</a></li>
+                        <li><a href="/bio">Biography</a></li>
+                        <li><a href="/skills">Skills</a></li>
+<!--                         
                         <li><a href="#profile">Profile</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#resume">Resume</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
+ -->                        
+                        <li><a href="/resume">Resume</a></li>
+                        <!-- <li><a href="#portfolio">Portfolio</a></li> -->
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -242,27 +246,27 @@
                     <div class="col-md-3 col-sm-4 wow bounceInDown">
                         <div class="stat">
                             <div class="stat-icon">
-                                <h2><i class="fa fa-coffee hidden-xs"></i><span class="timer" data-to="32"></span></h2>
+                                <h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="32"></span></h2>
                             </div>
-                            <h3>Cup of coffee</h3>
+                            <h3>2 Children</h3>
                         </div>
                     </div>
 
                     <div class="col-md-3 col-sm-4 wow bounceInUp">
                         <div class="stat">
                             <div class="stat-icon">
-                                <h2><i class="fa fa-code hidden-xs"></i><span class="timer" data-to="999"></span></h2>
+                                <h2><i class="fa fa-heartbeat hidden-xs"></i><span class="timer" data-to="999"></span></h2>
                             </div>
-                            <h3>Line of code</h3>
+                            <h3>2100 miles run in 2 years</h3>
                         </div>
                     </div>
 
                     <div class="col-md-3 col-sm-4 wow bounceInRight">
                         <div class="stat">
                             <div class="stat-icon">
-                                <h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="300"></span>+</h2>
+                                <h2><i class="fa fa-medkit hidden-xs"></i><span class="timer" data-to="300"></span>+</h2>
                             </div>
-                            <h3>Happy customers</h3>
+                            <h3>2 knee surgeries</h3>
                         </div>
                     </div>
 
@@ -392,8 +396,8 @@
                     </div>
 
                     <div class="col-md-9 headline nomargin wow bounceInDown">
-                        <h3>I'm currently available for freelance work.</h3>
-                        <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                        <h3>I'm currently busy, but open to short term projects.</h3>
+                        <p>Right now, I am developing and deploying CADWOLF - a web based engineering platform that will serve as a first of its kind next generation engineering platform. I am open to temporary projects to help individuals in politics and I can give advice to other technical startups.</p>
                         <a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> Contact me</a>
                     </div>
 
