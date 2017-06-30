@@ -503,6 +503,47 @@ h3 > .fa {
 	background: #222;
 }
 
+
+
+/* ---------------------------------------------- /*
+ * Sticky navbar
+/* ---------------------------------------------- */
+
+.navbar-sticky,
+.custom-collapse {
+	background: #FFF;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+	padding: 0;
+}
+
+.navbar-sticky .navbar-brand,
+.custom-collapse .navbar-brand,
+.navbar-sticky .navbar-nav > li > a,
+.navbar-sticky .navbar-nav .dropdown-menu > li > a,
+.custom-collapse .navbar-nav > li > a,
+.custom-collapse .navbar-nav .dropdown-menu > li > a {
+	color: #222;
+}
+
+.navbar-sticky .navbar-nav > li.active {
+	border-bottom: 3px solid #222;
+}
+
+.custom-collapse .navbar-nav {
+	text-align: left;
+}
+
+.custom-collapse .navbar-nav > li.active {
+	border: 0;
+}
+
+.navbar-sticky .navbar-toggle .icon-bar,
+.custom-collapse .navbar-toggle .icon-bar {
+	background: #222;
+}
+
+
+
 /* ---------------------------------------------- /*
  * Intro
 /* ---------------------------------------------- */
