@@ -46,40 +46,8 @@
 
         <!-- Navigation start -->
 
-        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-            <div class="container">
+        @yield('navbar')
 
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Joshua Foxworth</a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#intro">home</a></li>
-                        <li><a href="/bio">Biography</a></li>
-                        <li><a href="/skills">Skills</a></li>
-<!--                         
-                        <li><a href="#profile">Profile</a></li>
-                        <li><a href="#services">Services</a></li>
- -->                        
-                        <li><a href="/resume">Resume</a></li>
-                        <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-
-            </div>
-        </nav>
-
-        <!-- Navigation end -->
 
         <!-- Intro section start -->
 
@@ -246,27 +214,27 @@
                     <div class="col-md-3 col-sm-4 wow bounceInDown">
                         <div class="stat">
                             <div class="stat-icon">
-                                <h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="32"></span></h2>
+                                <h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="2"></span></h2>
                             </div>
-                            <h3>2 Children</h3>
+                            <h3>Children</h3>
                         </div>
                     </div>
 
                     <div class="col-md-3 col-sm-4 wow bounceInUp">
                         <div class="stat">
                             <div class="stat-icon">
-                                <h2><i class="fa fa-heartbeat hidden-xs"></i><span class="timer" data-to="999"></span></h2>
+                                <h2><i class="fa fa-heartbeat hidden-xs"></i><span class="timer" data-to="2100"></span></h2>
                             </div>
-                            <h3>2100 miles run in 2 years</h3>
+                            <h3>miles run in 3 years</h3>
                         </div>
                     </div>
 
                     <div class="col-md-3 col-sm-4 wow bounceInRight">
                         <div class="stat">
                             <div class="stat-icon">
-                                <h2><i class="fa fa-medkit hidden-xs"></i><span class="timer" data-to="300"></span>+</h2>
+                                <h2><i class="fa fa-medkit hidden-xs"></i><span class="timer" data-to="2"></span>+</h2>
                             </div>
-                            <h3>2 knee surgeries</h3>
+                            <h3>knee surgeries</h3>
                         </div>
                     </div>
 
@@ -740,7 +708,7 @@
 
                     <div class="col-md-12">
                         <p class="copy">
-                            © 2014 Mark Stone, All Rights Reserved.
+                            © 2017 Joshua Foxworth, All Rights Reserved.
                         </p>
                     </div>
 
