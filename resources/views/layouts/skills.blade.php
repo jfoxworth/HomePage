@@ -18,7 +18,7 @@
 
         @include('navbarstuck')
 
-        @include('profile')
+        @include('skills')
 
         @include('footer')
 

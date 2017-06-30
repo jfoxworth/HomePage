@@ -18,19 +18,6 @@
 
         @include('navbarstuck')
 
-        @include('intro')
-
-        @include('profile')
-
-        @include('stats')
-
-        @include('services')
-
-        @include('status')
-
-        @include('resume')
-
-        @include('contact')
 
         @include('footer')
 
