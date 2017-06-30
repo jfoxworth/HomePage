@@ -46,8 +46,11 @@
 
         <!-- Navigation start -->
 
+@section('main')
         @yield('navbar')
+@stop
 
+        <!-- Navigation end -->
 
         <!-- Intro section start -->
 
