@@ -30,4 +30,4 @@
         </div>
     </nav>
 
-@stop
+@endsection
