@@ -7,13 +7,61 @@
                 <div class="row">
 
                     <div class="col-md-12 headline wow bounceInDown">
-                        <h2>Joshua Foxworth</h2>
-                        <p>Structural Engineer. Web Developer. Equality Activist.</p>
+                        <h2>My Skills</h2>
+                        <p>Engineering and Web Development</p>
                     </div>
 
+
+                    <div class="col-md-3 col-sm-6 wow bounceInUp">
+
+                        <div class="profile-widget">
+                            <h3>Legend</h3>
+
+                            <h5>Some Experience</h5>
+                            <div class="skill-bar">
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-off"></div>
+                                <div class="skill-rate-off"></div>
+                                <div class="skill-rate-off"></div>
+                            </div>
+
+                            <h5>Moderate Proficiency</h5>
+                            <div class="skill-bar">
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-off"></div>
+                                <div class="skill-rate-off"></div>
+                            </div>
+
+                            <h5>Fully Proficient</h5>
+                            <div class="skill-bar">
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-off"></div>
+                            </div>
+
+                            <h5>Fluent</h5>
+                            <div class="skill-bar">
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                            </div>
+                        </div>
+
+                    </div><!-- .col-md-3 -->
+
+                    <div class="col-md-9 col-sm-12 wow bounceInRight">
+                        <h3>Skill Ratings</h3>
+                        <p>Different people will categorize their skills differently. Here, I use a 1 of 4 rating for a skill that I have that I may have done a few times but could not do again without some research. The phrase "proficient" is used on two different levels. Moderate proficiency is where I can speak intelligently about the subject without research and can tell what can and cannot be done with a platform but could not do complete a project without some initial refreshing. Fully proficient means that I can do most tasks without refreshing, but I am not an expert. Fluent in a language or platform means that I know all of the best practices and have a great deal of experience in that area.</p>
+                    </div>
+
+<!-- 
                     <div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
                         <img class="avatar" src="/images/capsule_head.jpeg" alt="">
                     </div>
+ -->
 
                     <div class="col-md-3 col-sm-6 wow bounceInUp">
 
@@ -65,12 +113,6 @@
 
                     </div><!-- .col-md-3 -->
 
-                    <div class="col-md-6 col-sm-12 wow bounceInRight">
-                        <h3>Profesional Profile</h3>
-                        <p>My schooling and degrees are in aerospace engineering with an emphasis on structures and fluid flow. After school, I worked in the space program as an engineer and designed components for the Orion Capsule. After leaving the space program, I began to develop startup websites on both the front and back end. This has led to me become proficient in a number of areas without really specializing in any one area.</p>
-                        <p>In college and in the space program, I began to understand the level of inequality in education and employment based upon race and gender and I started to advocate for equality for my sons.
-                        <p>This site provides my resume, describes the work that I have done, and lists my skill set. If you want to contact me, that info is also provided.</p>
-                    </div>
 
                 </div><!-- .row -->
 
