@@ -46,7 +46,6 @@
 
         <!-- Navigation start -->
 
-        @include('navbar')
 
 
         <!-- Navigation end -->
