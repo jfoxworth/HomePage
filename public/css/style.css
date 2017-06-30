@@ -443,29 +443,29 @@ h3 > .fa {
 	color: #FFF !important;
 }
 
-.navbar-custom .navbar-stuck .nav li a:hover, 
-.navbar-custom .navbar-stuck .nav li a:focus, 
-.navbar-custom .navbar-stuck .nav li.active {
+.navbar-custom .nav li a:hover, 
+.navbar-custom .nav li a:focus, 
+.navbar-custom .nav li.active {
 	background: none;
 	outline: 0;
 	color: #EF4836;
 }
 
-.navbar-custom .navbar-stuck .navbar-brand {
+.navbar-custom .navbar-brand {
 	font: 700 18px/1.2 'Montserrat', serif, sans-serif;
 	color: #FFF;
 }
 
-.navbar-custom .navbar-stuck .navbar-nav > li.active {
+.navbar-custom .navbar-nav > li.active {
 	border-bottom: 3px solid #FFF;
 }
 
-.navbar-custom .navbar-stuck .navbar-toggle .icon-bar {
+.navbar-custom .navbar-toggle .icon-bar {
 	background: #FFF;
 }
 
-.navbar-custom .navbar-stuck .navbar-nav > li > a,
-.navbar-custom .navbar-stuck .navbar-nav .dropdown-menu > li > a {
+.navbar-custom .navbar-nav > li > a,
+.navbar-custom .navbar-nav .dropdown-menu > li > a {
 	color: #FFF;
 	font-size: 12px;
 }
