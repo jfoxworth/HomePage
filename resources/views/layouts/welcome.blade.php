@@ -24,13 +24,13 @@
 
         @include('stats')
 
-        @include('services')
+        <!-- @include('services') -->
 
         @include('status')
 
-        @include('resume')
+        <!-- @include('resume') -->
 
-        @include('contact')
+        <!-- @include('contact') -->
 
         @include('footer')
 

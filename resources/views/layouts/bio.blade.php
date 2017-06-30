@@ -16,7 +16,7 @@
         </div>
 
 
-        @include('navbar')
+        @include('navbarstuck')
 
         @include('intro')
 
