@@ -12,17 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('layouts.app');
+    return view('layouts.welcome');
 });
 
 Route::get('/resume', function () {
-    return view('resume');
+    return view('layouts.resume');
 });
 
 Route::get('/bio', function () {
-    return view('bio');
+    return view('layouts.bio');
 });
 
 Route::get('/skills', function () {
-    return view('skills');
+    return view('layouts.skills');
+});
+
+Route::get('/contact', function () {
+    return view('layouts.contact');
 });

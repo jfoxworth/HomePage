@@ -44,12 +44,9 @@
             </div>
         </div>
 
-        <!-- Navigation start -->
 
         @include('navbar')
 
-
-        <!-- Navigation end -->
 
         <!-- Intro section start -->
 
