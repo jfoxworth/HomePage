@@ -24,6 +24,7 @@
 
         @include('stats')
 
+        @include('services')
 
         @include('status')
 

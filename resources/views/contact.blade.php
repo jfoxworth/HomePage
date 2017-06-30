@@ -1,6 +1,6 @@
         <!-- Contact section start -->
 
-        <section id="contact" class="section">
+        <section id="resume" class="section">
 
             <div class="container">
 
