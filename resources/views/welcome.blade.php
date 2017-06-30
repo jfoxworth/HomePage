@@ -46,7 +46,7 @@
 
         <!-- Navigation start -->
 
-        @yield('navbar')
+        @include('navbar')
 
 
         <!-- Navigation end -->
