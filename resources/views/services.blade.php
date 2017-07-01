@@ -55,6 +55,18 @@
 
                         <div class="row">
 
+                            <div class="col-sm-4 wow bounceInUp" data-wow-delay=".6s">
+                                <div class="service">
+                                    <div class="icon">
+                                        <i class="fa fa-group"></i>
+                                    </div>
+                                    <h4>UI / UX</h4>
+                                    <div class="text">
+                                        <p>I tend to gravitate towards simple sites that are mostly black and white. I don't particularly care for lots of bells and whistles if they don't add to the ease of use. I enjoy looking for the best way to provide a good user experience and I enjoy playing with new ideas.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="col-sm-4 wow bounceInUp" data-wow-delay=".2s">
                                 <div class="service">
                                     <div class="icon">
@@ -72,21 +84,9 @@
                                     <div class="icon">
                                         <i class="fa fa-send-o"></i>
                                     </div>
-                                    <h4>Intersite communication</h4>
+                                    <h4>Manned Space Flight</h4>
                                     <div class="text">
-                                        <p>I recently linked CADWOLF with onShape using the oAuth protocol. This prompted me to look into the security of these types of connections and I got fairly interested in how these types of connections work.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-4 wow bounceInUp" data-wow-delay=".6s">
-                                <div class="service">
-                                    <div class="icon">
-                                        <i class="fa fa-group"></i>
-                                    </div>
-                                    <h4>UI / UX</h4>
-                                    <div class="text">
-                                        <p>I tend to gravitate towards simple sites that are mostly black and white. I don't particularly care for lots of bells and whistles if they don't add to the ease of use. I enjoy looking for the best way to provide a good user experience and I enjoy playing with new ideas.</p>
+                                        <p>I have always been interested in the manned space flight and continue to push for the exploration of space and colonizing the stars. However, the current condition of NASA is not healthy and a radical transformation is necessary if the goal of space colonies is to be realized.</p>
                                     </div>
                                 </div>
                             </div>
