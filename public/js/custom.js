@@ -35,10 +35,7 @@
 		/* ---------------------------------------------- */
 
 		$('#intro').backstretch([
-			'/images/desk1.jpg',
-			'/images/drawingroom.jpg',
-			'assets/images/bg4.jpg',
-			'assets/images/bg2.jpg'
+			'/images/desk1.jpg'
 		], {duration: 3000, fade: 750});
 
 		/* ---------------------------------------------- /*
