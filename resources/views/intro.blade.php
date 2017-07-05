@@ -10,7 +10,7 @@
 
                         <div class="hello wow bounceInDown">
                             <h1>Hello, I'm Joshua Foxworth</h1>
-                            <h3><span class="rotate">Structural Engineer. | Web Developer. | Equality Activist.</span></h3>
+                            <h3><span class="rotate">Structural Engineer. | Web Developer. | Startup Enthusiast.</span></h3>
                         </div>
 
                         <a href="#profile">
