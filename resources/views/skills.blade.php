@@ -150,9 +150,10 @@
 
 
 
-                    <div class="col-md-6 col-sm-12 wow bounceInLeft">
-                        <h3>Engineering</h3>
-                        <p>Structural engineering can be broken up into three sections. The first is component design where mathematics is used to design structures that can hold given loads, withstand certain conditions, or be used for a given number of cycles. The second is modeling in CAD, and the third is finite element analysis.</p>
+                    <div class="col-md-12 col-sm-12 wow bounceInLeft">
+                        <h3>Web Development</h3>
+                        <p>Building websites involves a number of distinct activities. Front end developement that involves the code and packages run in the browser on the user's machince. Back end development consists of the code that runs on the server and usually involves a framework. Back end developers generally work on database development as well. In addition to these two items, there is deployment of the site to platforms like heroku and AWS. There are a number of software packages that are also used to aid in the development and deployment of websites as well. </p>
+                        <p>I consider myself a full stack developer, meaning that I typically write code for all aspects of a website. As a general rule, I take those sites from  nothing to full deployment and I use a number of platforms to achieve that result.</p>
                     </div>
 
 
@@ -260,6 +261,22 @@
                                 <div class="skill-rate-on"></div>
                                 <div class="skill-rate-on"></div>
                                 <div class="skill-rate-on"></div>
+                                <div class="skill-rate-off"></div>
+                            </div>
+
+                            <h5>Git</h5>
+                            <div class="skill-bar">
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-off"></div>
+                                <div class="skill-rate-off"></div>
+                            </div>
+
+                            <h5>Gulp</h5>
+                            <div class="skill-bar">
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-off"></div>
                                 <div class="skill-rate-off"></div>
                             </div>
 
