@@ -62,7 +62,12 @@
                     </div>
 
 
-                    <div class="col-md-3 col-sm-6 wow bounceInUp">
+                    <div class="col-md-6 col-sm-12 wow bounceInLeft">
+                        <h3>Engineering</h3>
+                        <p>Structural engineering can be broken up into three sections. The first is component design where mathematics is used to design structures that can hold given loads, withstand certain conditions, or be used for a given number of cycles. The second is modeling in CAD, and the third is finite element analysis.</p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 wow bounceInRight">
 
                         <div class="profile-widget">
                             <h3>CAD</h3>
@@ -103,8 +108,7 @@
                     </div><!-- .col-md-3 -->
 
 
-
-                    <div class="col-md-3 col-sm-6 wow bounceInUp">
+                    <div class="col-md-3 col-sm-6 wow bounceInRight">
 
                         <div class="profile-widget">
                             <h3>Engineering</h3>
@@ -146,8 +150,13 @@
 
 
 
+                    <div class="col-md-6 col-sm-12 wow bounceInLeft">
+                        <h3>Engineering</h3>
+                        <p>Structural engineering can be broken up into three sections. The first is component design where mathematics is used to design structures that can hold given loads, withstand certain conditions, or be used for a given number of cycles. The second is modeling in CAD, and the third is finite element analysis.</p>
+                    </div>
 
-                    <div class="col-md-3 col-sm-6 wow bounceInUp">
+
+                    <div class="col-md-3 col-sm-6 wow bounceInRight">
 
                         <div class="profile-widget">
                             <h3>Back end web</h3>
@@ -190,7 +199,7 @@
 
 
 
-                    <div class="col-md-3 col-sm-6 wow bounceInUp">
+                    <div class="col-md-3 col-sm-6 wow bounceInRight">
 
                         <div class="profile-widget">
                             <h3>Front end web</h3>

@@ -13,58 +13,8 @@
 
                 </div><!-- .row -->
 
-                <div class="row resume-items">
 
-                    <div class="col-md-3 wow bounceInLeft">
-                        <h3>Military Service</h3>
-                    </div>
-
-                    <div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
-                        <h4>Reconnassiance Marine</h4>
-                        <p>Upon graduating high school, I enlisted in the US Marine Corps as an infantryman. Not long after joining the corps, I joined the reconnassiance battalion and attended a number of schools, including airborne school.</p>
-                        <hr class="hidden-xs">
-                    </div>
-
-                    <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
-                        <h4><i class="fa fa-suitcase"></i> USMC</h4>
-                        <i class="fa fa-calendar"></i> 1994 - 1998
-                        <hr class="visible-xs">
-                    </div>
-
-                </div><!-- .row -->
-
-                <div class="row resume-items">
-
-                    <div class="col-md-3 wow bounceInLeft">
-                        <h3>Education</h3>
-                    </div>
-
-                    <div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
-                        <h4>BS Aerospace Engineering</h4>
-                        <p>The basic aerospace engineering degree is similar to a mechanical engineering degree with the addition of vector calculas, orbital mechanics, and fluid flow. I focused my studies on structures and fluid flow.</p>
-                        <hr class="hidden-xs">
-                    </div>
-
-                    <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
-                        <h4><i class="fa fa-suitcase"></i> University of Texas at Austin</h4>
-                        <i class="fa fa-calendar"></i> 1998 - 2003
-                        <hr class="visible-xs">
-                    </div>
-
-                    <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
-                        <h4>MS Aerospace Engineering</h4>
-                        <p>I focused my studies in graduate school on structural concepts such as finite elements and fluid flow. My thesis work involved the effects of ice accrual on a Cessna Grand Caravan 208B. I also worked on interpreting vibrations recorded on cockpit voice recorders with respect to aircraft health.</p>
-                        <hr class="hidden-xs">
-                    </div>
-
-                    <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
-                        <h4><i class="fa fa-suitcase"></i> University of Texas at Austin</h4>
-                        <i class="fa fa-calendar"></i> 2003 - 2005
-                        <hr class="visible-xs">
-                    </div>
-
-                </div><!-- .row -->
-
+                <!-- Work Experience -->
                 <div class="row resume-items">
 
                     <div class="col-md-3 wow bounceInLeft">
@@ -116,6 +66,64 @@
                     <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
                         <h4><i class="fa fa-suitcase"></i> Neptec International</h4>
                         <i class="fa fa-calendar"></i> 2005 - 2008
+                        <hr class="visible-xs">
+                    </div>
+
+                </div><!-- .row -->
+
+
+
+                <!-- Education -->
+                <div class="row resume-items">
+
+                    <div class="col-md-3 wow bounceInLeft">
+                        <h3>Education</h3>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
+                        <h4>BS Aerospace Engineering</h4>
+                        <p>The basic aerospace engineering degree is similar to a mechanical engineering degree with the addition of vector calculas, orbital mechanics, and fluid flow. I focused my studies on structures and fluid flow.</p>
+                        <hr class="hidden-xs">
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+                        <h4><i class="fa fa-suitcase"></i> University of Texas at Austin</h4>
+                        <i class="fa fa-calendar"></i> 1998 - 2003
+                        <hr class="visible-xs">
+                    </div>
+
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+                        <h4>MS Aerospace Engineering</h4>
+                        <p>I focused my studies in graduate school on structural concepts such as finite elements and fluid flow. My thesis work involved the effects of ice accrual on a Cessna Grand Caravan 208B. I also worked on interpreting vibrations recorded on cockpit voice recorders with respect to aircraft health.</p>
+                        <hr class="hidden-xs">
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+                        <h4><i class="fa fa-suitcase"></i> University of Texas at Austin</h4>
+                        <i class="fa fa-calendar"></i> 2003 - 2005
+                        <hr class="visible-xs">
+                    </div>
+
+                </div><!-- .row -->
+
+
+
+                <!-- Military Service -->
+                <div class="row resume-items">
+
+                    <div class="col-md-3 wow bounceInLeft">
+                        <h3>Military Service</h3>
+                    </div>
+
+                    <div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
+                        <h4>Reconnassiance Marine</h4>
+                        <p>Upon graduating high school, I enlisted in the US Marine Corps as an infantryman. Not long after joining the corps, I joined the reconnassiance battalion and attended a number of schools, including airborne school.</p>
+                        <hr class="hidden-xs">
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+                        <h4><i class="fa fa-suitcase"></i> USMC</h4>
+                        <i class="fa fa-calendar"></i> 1994 - 1998
                         <hr class="visible-xs">
                     </div>
 
