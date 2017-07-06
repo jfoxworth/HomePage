@@ -246,7 +246,7 @@
                     <div class="col-md-3 col-sm-6 wow bounceInUp">
 
                         <div class="profile-widget">
-                            <h3>Additional Packages</h3>
+                            <h3>Packages</h3>
 
                             <h5>Highcharts</h5>
                             <div class="skill-bar">
@@ -288,7 +288,7 @@
                     <div class="col-md-3 col-sm-6 wow bounceInUp">
 
                         <div class="profile-widget">
-                            <h3>Amazon Web Services</h3>
+                            <h3>AWS</h3>
 
                             <h5>S3 Buckets</h5>
                             <div class="skill-bar">
