@@ -56,10 +56,11 @@
                         <div class="profile-widget">
                             <h3>Social Profiles</h3>
                             <ul class="widget-social">
-                                <li><a href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
-                                <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="https://www.facebook.com/theuttick"><i class="fa fa-facebook fa-fw"></i></a></li>
+                                <li><a href="https://www.twitter.com/Cadwolf_platform"><i class="fa fa-twitter"></i></a></li>
+                                <!--<li><a href="#"><i class="fa fa-github-alt"></i></a></li>-->
+                                <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+                                <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
                             </ul>
                         </div>
 
