@@ -8,7 +8,7 @@
 
                     <div class="col-md-12 headline wow bounceInDown">
                         <h2>Joshua Foxworth</h2>
-                        <p>Structural Engineer. Web Developer. Equality Activist.</p>
+                        <p>Structural Engineer. Web Developer. Startup Enthusiast.</p>
                     </div>
 
                     <div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
@@ -57,7 +57,7 @@
                             <h3>Social Profiles</h3>
                             <ul class="widget-social">
                                 <li><a href="https://www.facebook.com/theuttick"><i class="fa fa-facebook fa-fw"></i></a></li>
-                                <li><a href="https://www.twitter.com/Cadwolf_platform"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.twitter.com/cadwolfplatform"><i class="fa fa-twitter"></i></a></li>
                                 <!--<li><a href="#"><i class="fa fa-github-alt"></i></a></li>-->
                                 <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
                                 <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
