@@ -20,6 +20,8 @@
 
         @include('intro')
 
+        @include('candidate')
+
         @include('profile')
 
         @include('stats')
