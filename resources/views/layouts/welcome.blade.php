@@ -22,15 +22,6 @@
 
         @include('candidate')
 
-        @include('profile')
-
-        @include('stats')
-
-        @include('services')
-
-        @include('status')
-
-
         @include('footer')
 
 

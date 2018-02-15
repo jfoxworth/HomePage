@@ -19,6 +19,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/">home</a></li>
+                    <li><a href="/profile">Profile</a></li>
                     <li><a href="/skills">Skills</a></li>
                     <li><a href="/resume">Resume</a></li>
                     <li><a href="/contact">Contact</a></li>

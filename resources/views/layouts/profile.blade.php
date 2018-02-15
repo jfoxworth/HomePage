@@ -18,21 +18,13 @@
 
         @include('navbar')
 
-        @include('intro')
-
-        @include('candidate')
-
         @include('profile')
 
         @include('stats')
 
-        <!-- @include('services') -->
+        @include('services')
 
         @include('status')
-
-        <!-- @include('resume') -->
-
-        <!-- @include('contact') -->
 
         @include('footer')
 
