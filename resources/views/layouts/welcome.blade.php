@@ -22,6 +22,8 @@
 
         @include('candidate')
 
+        @include('precinctmap')
+
         @include('footer')
 
 
