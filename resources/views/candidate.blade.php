@@ -47,7 +47,7 @@
                 <h3>Precinct Needs</h3>
             </div>
 
-            <div class="col-md-3 col-sm-4 wow bounceInDown">
+            <div class="col-md-9 col-sm-12 wow bounceInDown">
                 <div class="stat">
                     <h3>The Republican party in Galveston County and in Texas needs to overhaul its web presence to facilitate better communication between the representatives and constituents and to organize for new candidates.</h3>
                 </div>
