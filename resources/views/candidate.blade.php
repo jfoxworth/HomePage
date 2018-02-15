@@ -11,18 +11,26 @@
                         <p>Candidate for Precinct Chair - 0487</p>
                     </div>
 
-                    <div class="col-md-12 col-sm-12 wow">
+                    <div class="col-md-9 col-sm-6 wow">
                         <h3>A bit about me</h3>
                         <p>I am an engineer, entrepreneur, and web developer that has lived here in Brittany Lakes since 2008. I am married with two young boys and I am a member of Bay Area Church. My wife and I are both aerospace engineers and graduates of UT Austin. Most evenings, you can find us out by Willow Pond with the kids.</p>
 
                         <ul>
                             <li>USMC Veteran</li>
-                            <li>BS and MS from UT Austin in aerospace engineering</li>
+                            <li>BS and MS from UT Austin in Aerospace Engineering</li>
                             <li>Resident of Brittany Lakes since 2008</li>
                             <li>Member of Bay Area Church since 2010.</li>
                             <li>Entrepreneur</li>
                         </ul>
                     </div>
+
+                    <div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
+                        <img class="avatar" src="/images/drawingroom.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="row">
 
                     <div class="col-md-12 col-sm-12 wow">
                         <h3>What I want to do as precinct chair</h3>

@@ -7,33 +7,12 @@
         <div class="row">
 
             <div class="col-md-3 col-sm-12 hidden-xs wow bounceInLeft">
-                <h3>My Stats</h3>
+                <h3>Precinct 0487</h3>
             </div>
 
-            <div class="col-md-3 col-sm-4 wow bounceInDown">
+            <div class="col-md-9 col-sm-9 wow bounceInDown">
                 <div class="stat">
-                    <div class="stat-icon">
-                        <h2><i class="fa fa-child hidden-xs"></i><span class="timer" data-to="2"></span></h2>
-                    </div>
-                    <h3>Children</h3>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-4 wow bounceInUp">
-                <div class="stat">
-                    <div class="stat-icon">
-                        <h2><i class="fa fa-heartbeat hidden-xs"></i><span class="timer" data-to="2100"></span></h2>
-                    </div>
-                    <h3>miles run in 3 years</h3>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-4 wow bounceInRight">
-                <div class="stat">
-                    <div class="stat-icon">
-                        <h2><i class="fa fa-medkit hidden-xs"></i><span class="timer" data-to="2"></span></h2>
-                    </div>
-                    <h3>knee surgeries</h3>
+                    <h3>The precinct extends from I-45 through Brittany Lakes and a small portion north of Brittany Bay Blvd.</h3>
                 </div>
             </div>
 
