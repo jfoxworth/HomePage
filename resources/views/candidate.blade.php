@@ -36,6 +36,10 @@
 
                 <div class="row">
 
+                    <div class="col-md-5 col-sm-12 hidden-xs wow bounceInLeft">
+                        <img class="avatar" src="/images/convention.jpg" alt="">
+                    </div>
+
                     <div class="col-md-7 col-sm-12 wow">
                         <h3>What I want to do as precinct chair</h3>
                         
@@ -55,10 +59,6 @@
 
                         <p>These changes are intended to have the cumulative effect of unifying the GOP and developing leadership that can prevent the state from turning blue in the next decade.</p>
 
-                    </div>
-
-                    <div class="col-md-5 col-sm-12 hidden-xs wow bounceInLeft">
-                        <img class="avatar" src="/images/convention.jpg" alt="">
                     </div>
 
                 </div><!-- .row -->
