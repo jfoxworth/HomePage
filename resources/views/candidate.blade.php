@@ -1,6 +1,6 @@
     <!-- Profile section start -->
 
-    <section id="aboutme" class="section">
+<section id="aboutme" class="section">
 
     <div class="container">
 
@@ -32,10 +32,38 @@
 
     </div>
 
-    </section>
+</section>
 
 
-    <section id="whattodo" class="section">
+<!-- Callout section start -->
+
+<section id="stats" class="callout">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3 col-sm-12 hidden-xs wow bounceInLeft">
+                <h3>Precinct Needs</h3>
+            </div>
+
+            <div class="col-md-3 col-sm-4 wow bounceInDown">
+                <div class="stat">
+                    <h3>The Republican party in Galveston County and in Texas needs to overhaul its web presence to facilitate better communication between the representatives and constituents and to organize for new candidates.</h3>
+                </div>
+            </div>
+
+        </div><!-- .row -->
+
+    </div><!-- .container -->
+
+</section>
+
+<!-- Callout section end -->
+
+
+
+<section id="whattodo" class="section">
 
     <div class="container">
 
@@ -70,6 +98,6 @@
 
     </div><!-- .container -->
 
-    </section>
+</section>
 
-    <!-- Profile section end -->
+<!-- Profile section end -->

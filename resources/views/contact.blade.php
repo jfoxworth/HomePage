@@ -11,7 +11,7 @@
                         <p>Drop me a line if you have something for me</p>
                     </div>
 
-                    <div class="col-md-6 wow bounceInUp">
+                    <div class="col-md-12 wow bounceInUp">
 
                         <p>If the information here does not yield a response from me, you can go to one of CADWOLF's pages and get me there.</p>
 
@@ -25,6 +25,7 @@
 
                     </div>
 
+<!--
                     <div class="col-md-6 wow bounceInRight">
 
                         <form id="contact-form" role="form" novalidate>
@@ -55,6 +56,7 @@
                         <div id="contact-response"></div>
 
                     </div>
+-->
 
                 </div><!-- .row -->
 
