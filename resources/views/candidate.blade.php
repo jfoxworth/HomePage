@@ -86,7 +86,7 @@
                     <li>Build a service to find and help conservative candidates run for office to contest Democratic offices</li>
                 </ul>
 
-                <p>These changes are intended to have the cumulative effect of unifying the GOP and developing leadership that can prevent the state from turning blue in the next decade.</p>
+                <p>These changes are intended to have the cumulative effect of unifying the GOP and developing leadership that can prevent the state from turning blue in the next decade. In addition to these changes, I will work to end the county infighting that is currently destroying the party's ability to function properly.</p>
 
             </div>
 
