@@ -82,7 +82,7 @@
                     </ul>
                     <li>Overhaul the county GOP website and all related sites</li>
                     <li>Start building a web platform to facilitate communication between local leaders and constituents for city and county matters</li>
-                    <li>Build a service to connect those who want to get involved with local politics with candidates and could use that help</li>
+                    <li>Build a service to connect those who want to get involved with local politics with candidates that could use their help</li>
                     <li>Build a service to find and help conservative candidates run for office to contest Democratic offices</li>
                 </ul>
 

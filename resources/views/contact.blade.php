@@ -20,7 +20,7 @@
                             <!-- <li><i class="fa fa-fw fa-phone"></i>123 4567 8910</li> -->
                             <!-- <li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:">support@site.com</a></li> -->
                             <li><i class="fa fa-fw fa-envelope-o"></i><a href="#">jfoxworth at cadwolf dot com</a></li>
-                            <li><i class="fa fa-fw fa-globe"></i><a href="">http://www.cadwolf.com</a></li>
+                            <li><i class="fa fa-fw fa-globe"></i><a href="http://www.cadwolf.com">CADWOLF</a></li>
                         </ul>
 
                     </div>
