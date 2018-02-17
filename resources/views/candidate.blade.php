@@ -13,7 +13,9 @@
 
             <div class="col-md-7 col-sm-6 wow">
                 <h3>A bit about me</h3>
-                <p>I am an engineer, entrepreneur, and web developer that has lived here in Brittany Lakes since 2008. I am married with two young boys and I am a member of Bay Area Church. My wife and I are both aerospace engineers and graduates of UT Austin. Most evenings, you can find us out by Willow Pond with the kids.</p>
+                <p>I am an engineer, entrepreneur, and web developer that has lived here in Brittany Lakes since 2008. I am married with two young boys and I am a member of Bay Area Church. My wife and I are both aerospace engineers and graduates of UT Austin.</p>
+
+                <p>This website normally functions as a place for potential business partners to access my work history. I have altered this page to give a brief bio and discussion of what I would like to accomplish within the precinct. If you would like to speak with me, feel free to email me at jfoxworth at cadwolf.com
 
                 <ul>
                     <li>USMC Veteran</li>
@@ -25,7 +27,7 @@
             </div>
 
             <div class="col-md-5 col-sm-6 hidden-xs wow bounceInLeft">
-                <img class="avatar" src="/images/drawingroom.jpg" alt="">
+                <img class="avatar" src="/images/blackFoxLogo.png" alt="">
             </div>
 
         </div>
@@ -91,7 +93,7 @@
             </div>
 
             <div class="col-md-5 col-sm-12 hidden-xs wow bounceInLeft">
-                <img class="avatar" src="/images/convention.jpg" alt="">
+                <img class="avatar" src="/images/drawingroom.jpg" alt="">
             </div>
 
         </div><!-- .row -->

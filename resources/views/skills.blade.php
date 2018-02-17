@@ -162,6 +162,14 @@
                         <div class="profile-widget">
                             <h3>Back end web</h3>
 
+                            <h5>Python</h5>
+                            <div class="skill-bar">
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-on"></div>
+                                <div class="skill-rate-off"></div>
+                            </div>
+
                             <h5>PHP</h5>
                             <div class="skill-bar">
                                 <div class="skill-rate-on"></div>
