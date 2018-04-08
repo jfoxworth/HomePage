@@ -20,11 +20,13 @@
 
         @include('intro')
 
-        @include('candidate')
+        @include('profile')
 
-        @include('precinctchair')
+        @include('stats')
 
-        @include('precinctmap')
+        @include('services')
+
+        @include('status')
 
         @include('footer')
 
