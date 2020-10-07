@@ -16,6 +16,8 @@
         </div>
 
 
+        @include('introNew')
+<!--
         @include('navbar')
 
         @include('intro')
@@ -29,7 +31,7 @@
         @include('status')
 
         @include('footer')
-
+-->
 
     </div><!-- .wrapper -->
 
