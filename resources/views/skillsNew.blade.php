@@ -125,7 +125,7 @@
 
 							<div class="col-md-4 mb-5 mb-md-0 text-center">
 								<div>
-									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="90" data-width="2" data-speed="3000"><img src="/images/angular.png" height="80px"></div>
+									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/angular.png" height="80px"></div>
 								</div>
 
 								<div class="feature-box fbox-sm fbox-plain topmargin-sm" data-animate="fadeIn" data-delay="1000">
@@ -139,7 +139,7 @@
 
 							<div class="col-md-4 mb-5 mb-md-0 text-center">
 								<div>
-									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="90" data-width="2" data-speed="3000"><img src="/images/ngrx.png" height="80px"></div>
+									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/ngrx.png" height="80px"></div>
 								</div>
 
 								<div class="feature-box fbox-sm fbox-plain topmargin-sm" data-animate="fadeIn" data-delay="1000">
@@ -153,7 +153,7 @@
 
 							<div class="col-md-4 mb-5 mb-md-0 text-center">
 								<div>
-									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="90" data-width="2" data-speed="3000"><img src="/images/firebase.png" height="80px"></div>
+									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/firebase.png" height="80px"></div>
 								</div>
 
 								<div class="feature-box fbox-sm fbox-plain topmargin-sm" data-animate="fadeIn" data-delay="1000">
@@ -183,7 +183,7 @@
 
 							<div class="col-md-4 mb-5 mb-md-0 text-center">
 								<div>
-									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="90" data-width="2" data-speed="3000"><img src="/images/node.png" height="60px"></div>
+									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/node.png" height="60px"></div>
 								</div>
 
 								<div class="feature-box fbox-sm fbox-plain topmargin-sm" data-animate="fadeIn" data-delay="1000">
@@ -197,7 +197,7 @@
 
 							<div class="col-md-4 mb-5 mb-md-0 text-center">
 								<div>
-									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="90" data-width="2" data-speed="3000"><img src="/images/laravel.png" height="60px"></div>
+									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/laravel.png" height="60px"></div>
 								</div>
 
 								<div class="feature-box fbox-sm fbox-plain topmargin-sm" data-animate="fadeIn" data-delay="1000">
@@ -211,7 +211,7 @@
 
 							<div class="col-md-4 mb-5 mb-md-0 text-center">
 								<div>
-									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="90" data-width="2" data-speed="3000"><img src="/images/python.jpg" height="80px"></div>
+									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/python.jpg" height="80px"></div>
 								</div>
 
 								<div class="feature-box fbox-sm fbox-plain topmargin-sm" data-animate="fadeIn" data-delay="1000">
@@ -242,7 +242,7 @@
 
 							<div class="col-md-4 mb-5 mb-md-0 text-center">
 								<div>
-									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="90" data-width="2" data-speed="3000"><img src="/images/postgres.jpg" height="80px"></div>
+									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/postgres.jpg" height="80px"></div>
 								</div>
 
 								<div class="feature-box fbox-sm fbox-plain topmargin-sm" data-animate="fadeIn" data-delay="1000">
@@ -256,7 +256,7 @@
 
 							<div class="col-md-4 mb-5 mb-md-0 text-center">
 								<div>
-									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="90" data-width="2" data-speed="3000"><img src="/images/mysql.jpg" height="80px"></div>
+									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/mysql.jpg" height="80px"></div>
 								</div>
 
 								<div class="feature-box fbox-sm fbox-plain topmargin-sm" data-animate="fadeIn" data-delay="1000">

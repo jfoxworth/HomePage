@@ -92,10 +92,11 @@
 					<div class="container py-5" style="text-align:right">
 						<div class="emphasis-title">
 							<h1>
-								<span class="text-rotater nocolor" data-separator="|" data-rotate="fadeIn" data-speed="6000">
-									<span class="t-rotate  font-body" style="font-size:76px">Engineer|Web Designer|Full Stack Developer</span>
-								</span>
+								<span class="nocolor">Joshua Foxworth</span>
 							</h1>
+							<h2>
+								<span class="nocolor">Engineer / Web Developer</span>
+							</h2>
 						</div>
 					</div>
 				</div>
