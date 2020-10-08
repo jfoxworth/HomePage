@@ -28,7 +28,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Joshua Foxworth</title>
+	<title>Joshua Foxworth - Resume</title>
 
 </head>
 
@@ -83,50 +83,45 @@
 			<div class="header-wrap-clone"></div>
 		</header><!-- #header end -->
 
-		<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-element slider-parallax dark min-vh-60 min-vh-md-100 include-header">
-			<div class="slider-inner" style="background-image: url('images/homepic.jpg'); background-size: cover; background-position: center top; ">
 
-				<div class="vertical-middle slider-element-fade">
-					<div class="container py-5" style="text-align:right">
-						<div class="emphasis-title">
-							<h1>
-								<span class="text-rotater nocolor" data-separator="|" data-rotate="fadeIn" data-speed="6000">
-									<span class="t-rotate  font-body" style="font-size:76px">Engineer|Web Designer|Full Stack Developer</span>
-								</span>
-							</h1>
-						</div>
-					</div>
-				</div>
 
-				<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+        <!-- Contact section start -->
 
-			</div>
-		</section><!-- #slider end -->
+        <section id="resume" class="section" style="padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:0px;">
 
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap py-0">
+            <div class="container">
 
-				<div id="section-about" class="center page-section">
+                <div class="">
 
-					<div class="container clearfix">
+                    <div class="col-md-12 headline wow bounceInLeft">
+                        <h2>Contact Me</h2>
+                        <p>Drop me a line if you have something for me</p>
+                    </div>
 
-						<h2 class="mx-auto bottommargin font-body" style="max-width: 700px; font-size: 40px;">Who I am and what I do</h2>
+                    <div class="col-md-12 wow bounceInUp">
 
-						<p class="lead mx-auto bottommargin" style="max-width: 800px;">I am a Marine, an aerospace engineer, and a full stack web developer specializing in Single Page Applications. I am interested in startup opportunities, and take contract work from time to time, but my primary work product is <a href="http://www.cadwolf.com">CADWOLF</a>, a web based engineering platform. If you are interested in talking to me about a startup or hiring for a contract, part time, or full time job, my contact page has my info. The skills and resume pages cover any relevant info and I can provide repos of previous work for interested parties upon request.</p>
+                        <p>If the information here does not yield a response from me, you can go to one of CADWOLF's pages and get me there.</p>
 
-						<div class="clear"></div>
+                        <ul class="icon-list">
+                            <li><i class="fa fa-fw fa-map-marker"></i>Houston, Texas, US</li>
+                            <!-- <li><i class="fa fa-fw fa-phone"></i>123 4567 8910</li> -->
+                            <!-- <li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:">support@site.com</a></li> -->
+                            <li><i class="fa fa-fw fa-envelope-o"></i><a href="#">jfoxworth at cadwolf dot com</a></li>
+                            <li><i class="fa fa-fw fa-globe"></i><a href="http://www.cadwolf.com">CADWOLF</a></li>
+                        </ul>
 
-					</div>
+                    </div>
 
-				</div>
 
-			</div>
+                </div><!-- .row -->
 
-		</section>
+            </div><!-- .container -->
+
+        </section>
+
+        <!-- Contact section end -->
+
+
 
 
 		<!-- Footer
