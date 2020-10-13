@@ -242,6 +242,21 @@
 
 							<div class="col-md-4 mb-5 mb-md-0 text-center">
 								<div>
+									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/testing.jpeg" height="80px"></div>
+								</div>
+
+								<div class="feature-box fbox-sm fbox-plain topmargin-sm" data-animate="fadeIn" data-delay="1000">
+									<div class="fbox-content">
+										<h3>Karma / Jasmine</h3>
+										<p>I have done unit testing and Angular with a Karma/Jasmine stack.</p>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="col-md-4 mb-5 mb-md-0 text-center">
+								<div>
 									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/postgres.jpg" height="80px"></div>
 								</div>
 
