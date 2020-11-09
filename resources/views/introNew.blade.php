@@ -117,7 +117,7 @@
 
 						<h2 class="mx-auto bottommargin font-body" style="max-width: 700px; font-size: 40px;">Who I am and what I do</h2>
 
-						<p class="lead mx-auto bottommargin" style="max-width: 800px;">I am a Marine, an aerospace engineer, and a full stack web developer specializing in single page applications. I am interested in startup opportunities, and take contract work from time to time, but my primary work product is <a href="http://www.cadwolf.com">CADWOLF</a>, a web based engineering platform. If you are interested in talking to me about a startup or hiring for a contract, part time, or full time job, my contact page has my info. The skills and resume pages cover any relevant info and I can provide repos of previous work for interested parties upon request.</p>
+						<p class="lead mx-auto bottommargin" style="max-width: 800px;">I am a Marine, an aerospace engineer, and a full stack web developer specializing in single page applications. I work in Angular, React, Node, and Laravel, and am interested in startup opportunities, and take contract work from time to time, but my primary work product is <a href="http://www.cadwolf.com">CADWOLF</a>, a web based engineering platform. If you are interested in talking to me about a startup or hiring for a contract, part time, or full time job, my contact page has my info. The skills and resume pages cover any relevant info and I can provide repos of previous work for interested parties upon request.</p>
 
 						<p class="lead mx-auto bottommargin" style="max-width: 800px;">In my spare time, I like to workout and run as well as take my kids hiking and fishing.</p>
 

@@ -153,13 +153,13 @@
 
 							<div class="col-md-4 mb-5 mb-md-0 text-center">
 								<div>
-									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/firebase.png" height="80px"></div>
+									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/react.png" height="80px"></div>
 								</div>
 
 								<div class="feature-box fbox-sm fbox-plain topmargin-sm" data-animate="fadeIn" data-delay="1000">
 									<div class="fbox-content">
-										<h3>Firebase</h3>
-										<p>I have built a couple of apps with Firebase and am very proficient in using it to create real time applications.</p>
+										<h3>React</h3>
+										<p>I have also built apps in React and am proficient in the platform.</p>
 									</div>
 								</div>
 							</div>
@@ -242,17 +242,16 @@
 
 							<div class="col-md-4 mb-5 mb-md-0 text-center">
 								<div>
-									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/testing.jpeg" height="80px"></div>
+									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/firebase.png" height="80px"></div>
 								</div>
 
 								<div class="feature-box fbox-sm fbox-plain topmargin-sm" data-animate="fadeIn" data-delay="1000">
 									<div class="fbox-content">
-										<h3>Karma / Jasmine</h3>
-										<p>I have done unit testing and Angular with a Karma/Jasmine stack.</p>
+										<h3>Firebase</h3>
+										<p>I have built a couple of apps with Firebase and am very proficient in using it to create real time applications.</p>
 									</div>
 								</div>
 							</div>
-
 
 
 							<div class="col-md-4 mb-5 mb-md-0 text-center">
@@ -289,6 +288,22 @@
 						<div class="line"></div>
 
 
+						<div class="row">
+
+							<div class="col-md-4 mb-5 mb-md-0 text-center">
+								<div>
+									<div class="rounded-skill mb-0" data-color="#3B5998" data-size="150" data-percent="100" data-width="2" data-speed="3000"><img src="/images/testing.jpeg" height="80px"></div>
+								</div>
+
+								<div class="feature-box fbox-sm fbox-plain topmargin-sm" data-animate="fadeIn" data-delay="1000">
+									<div class="fbox-content">
+										<h3>Karma / Jasmine</h3>
+										<p>I have done unit testing and Angular with a Karma/Jasmine stack.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
 
 
 					</div>
