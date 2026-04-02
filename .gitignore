@@ -1,0 +1,7 @@
+node_modules
+dist
+public/room/textures-orig
+public/room/textures
+public/room/scene.bin
+public/room/scene.gltf
+public/room/license.txt
