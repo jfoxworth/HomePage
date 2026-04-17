@@ -129,6 +129,35 @@ export default function TitleOverlay() {
         >
           jfoxworth@cadwolf.com
         </p>
+
+        <div
+          style={{
+            position: "absolute",
+            bottom: "2.5rem",
+            left: 0,
+            right: 0,
+            textAlign: "center",
+            color: "#c0d8ff",
+            fontFamily: "'Helvetica Neue', Arial, sans-serif",
+            fontWeight: 200,
+            fontSize: "0.85rem",
+            letterSpacing: "0.35em",
+            textShadow:
+              "0 0 20px rgba(68, 136, 204, 0.5), 0 2px 10px rgba(0,0,0,0.8)",
+            animation: "scrollHint 2.2s ease-in-out infinite",
+          }}
+        >
+          SCROLL
+          <div
+            style={{
+              marginTop: "0.6rem",
+              fontSize: "1.1rem",
+              letterSpacing: 0,
+            }}
+          >
+            ↓
+          </div>
+        </div>
       </div>
 
       {/* Corner 2: Projects */}
