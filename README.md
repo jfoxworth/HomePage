@@ -1,12 +1,13 @@
 # JoshuaFoxworth.com
 
-Personal portfolio site built with React, Three.js (react-three-fiber), and a GLTF room model. Scroll-driven camera moves between four corners of the room, displaying portfolio content at each view.
+Personal portfolio site built with React and Three.js (react-three-fiber). The scene is a Latin cross built entirely from particles. Scroll drives the camera in an orbiting path around and along the cross through four beats: an ambiguous close-up (title), an orbit past the arms (credentials & certifications), an orbit past the base (portfolio projects), and a final zoomed-out, level view where the cross is finally legible (closing statement & contact).
 
 ## Tech Stack
 
 - React 19 + Vite
 - Three.js / @react-three/fiber / @react-three/drei
-- GLTF room model with Draco compression
+- Custom GLSL point-sprite shader for the particle cross
+- @react-three/postprocessing (Bloom, GodRays, Noise, Vignette) for the volumetric fog / light-shaft atmosphere
 
 ## Development
 
@@ -29,16 +30,4 @@ Output goes to `dist/`.
 npm run build
 aws s3 sync dist/ s3://joshuafoxworth.com --delete
 aws cloudfront create-invalidation --distribution-id YOUR_DIST_ID --paths "/*"
-```
-
-## Room Model
-
-The compressed room model (`public/room/scene-compressed.glb`) is checked into the repo. The original uncompressed files (`scene.gltf`, `scene.bin`, `textures/`) are gitignored.
-
-To recompress from originals:
-
-```bash
-npm install -g gltf-pipeline
-# Place scene.gltf, scene.bin, and textures/ in public/room/
-gltf-pipeline -i public/room/scene.gltf -o public/room/scene-compressed.glb --draco.compressionLevel 10
 ```
