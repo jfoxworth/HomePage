@@ -27,11 +27,14 @@ const baseStyle = {
 const titleStyle = {
   color: "#eef4ff",
   fontFamily: "'Helvetica Neue', Arial, sans-serif",
-  fontSize: "5rem",
+  // clamp() saturates to 5rem on any normal desktop width and only shrinks
+  // once the viewport gets phone-narrow, so desktop is unaffected.
+  fontSize: "clamp(2rem, 10vw, 5rem)",
   fontWeight: 200,
   letterSpacing: "0.2em",
   textShadow: "0 0 24px rgba(255, 154, 82, 0.35), 0 2px 10px rgba(0,0,0,0.8)",
   margin: 0,
+  overflowWrap: "anywhere",
 };
 
 const subtitleStyle = {
@@ -49,14 +52,14 @@ const linkStyle = {
 };
 
 const panelStyle = {
-  minWidth: "500px",
-  maxWidth: "88vw",
+  width: "clamp(280px, 90vw, 500px)",
   textAlign: "left",
   border: "1px solid rgba(160, 180, 220, 0.25)",
-  padding: "2em",
+  padding: "clamp(1.1em, 5vw, 2em)",
   borderRadius: "1em",
   background: "rgba(8, 6, 14, 0.85)",
   backdropFilter: "blur(10px)",
+  boxSizing: "border-box",
 };
 
 const sectionHeadingStyle = {
@@ -92,8 +95,8 @@ const certBadgesWrapStyle = {
 };
 
 const certBadgeImgStyle = {
-  width: "172px",
-  height: "172px",
+  width: "clamp(64px, 20vw, 172px)",
+  height: "clamp(64px, 20vw, 172px)",
   objectFit: "contain",
   filter: "drop-shadow(0 0 10px rgba(255, 154, 82, 0.3))",
 };
@@ -206,13 +209,15 @@ export default function Overlay() {
     <>
       {/* View 1: Intro */}
       <div style={{ ...baseStyle, opacity: opacities[0] }}>
-        <h1 style={titleStyle}>JoshuaFoxworth</h1>
+        <h1 style={{ ...titleStyle, textAlign: "center" }}>JoshuaFoxworth</h1>
         <p
           style={{
             ...subtitleStyle,
-            fontSize: "1.5rem",
+            // Same clamp() approach: unchanged on desktop, shrinks on phones.
+            fontSize: "clamp(0.95rem, 4.2vw, 1.5rem)",
             letterSpacing: "0.25em",
             margin: "0.5rem 0 0 0",
+            textAlign: "center",
           }}
         >
           Full Stack Developer, Data Engineer, Entrepreneur
