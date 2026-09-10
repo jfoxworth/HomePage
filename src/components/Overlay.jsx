@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 function viewOpacity(t, holdStart, holdEnd, fadeIn = 0.04, fadeOut = 0.04) {
   if (t < holdStart - fadeIn) return 0;
@@ -185,20 +185,52 @@ const projectDescStyle = {
   lineHeight: 1.5,
 };
 
+// Written directly to each view's DOM node every frame (see the effect
+// below) instead of through React state — a setState here would re-render
+// all five panels (one with a backdrop blur) at 60fps forever, which was
+// eating the frame budget regardless of scroll position.
+// The view containers are full-viewport and must stay pointer-events:none
+// permanently (see baseStyle) or whichever one is visible blocks all scroll
+// input to the canvas underneath. Only the actual links inside opt back in.
+function applyOpacity(el, value) {
+  if (!el) return;
+  el.style.opacity = value;
+}
+
+function applyInteractive(el, value) {
+  if (!el) return;
+  el.style.pointerEvents = value > 0.5 ? "auto" : "none";
+}
+
 export default function Overlay() {
-  const [opacities, setOpacities] = useState([1, 0, 0, 0, 0]);
+  const viewRefs = [useRef(null), useRef(null), useRef(null), useRef(null), useRef(null)];
+  const socialRefs = SOCIAL_LINKS.map(() => useRef(null));
+  const resumeRef = useRef(null);
+  const cadwolfRef = useRef(null);
+  const checkonmeRef = useRef(null);
+  const mailtoRef = useRef(null);
 
   useEffect(() => {
     let raf;
     const update = () => {
       const t = window.__scrollT || 0;
-      setOpacities([
-        viewOpacity(t, 0.0, 0.05),
-        viewOpacity(t, 0.24, 0.3),
-        viewOpacity(t, 0.47, 0.53),
-        viewOpacity(t, 0.69, 0.75),
-        viewOpacity(t, 0.94, 1.0),
-      ]);
+      const o1 = viewOpacity(t, 0.24, 0.3);
+      const o2 = viewOpacity(t, 0.47, 0.53);
+      const o3 = viewOpacity(t, 0.69, 0.75);
+      const o4 = viewOpacity(t, 0.94, 1.0);
+
+      applyOpacity(viewRefs[0].current, viewOpacity(t, 0.0, 0.05));
+      applyOpacity(viewRefs[1].current, o1);
+      applyOpacity(viewRefs[2].current, o2);
+      applyOpacity(viewRefs[3].current, o3);
+      applyOpacity(viewRefs[4].current, o4);
+
+      socialRefs.forEach((r) => applyInteractive(r.current, o1));
+      applyInteractive(resumeRef.current, o2);
+      applyInteractive(cadwolfRef.current, o3);
+      applyInteractive(checkonmeRef.current, o3);
+      applyInteractive(mailtoRef.current, o4);
+
       raf = requestAnimationFrame(update);
     };
     raf = requestAnimationFrame(update);
@@ -208,7 +240,7 @@ export default function Overlay() {
   return (
     <>
       {/* View 1: Intro */}
-      <div style={{ ...baseStyle, opacity: opacities[0] }}>
+      <div ref={viewRefs[0]} style={{ ...baseStyle, opacity: 1 }}>
         <h1 style={{ ...titleStyle, textAlign: "center" }}>JoshuaFoxworth</h1>
         <p
           style={{
@@ -247,7 +279,7 @@ export default function Overlay() {
       </div>
 
       {/* View 2: Credentials & certifications */}
-      <div style={{ ...baseStyle, opacity: opacities[1] }}>
+      <div ref={viewRefs[1]} style={{ ...baseStyle, opacity: 0 }}>
         <div style={{ ...panelStyle, display: "flex", gap: "2rem" }}>
           <div style={{ flex: 1 }}>
             <h2 style={sectionHeadingStyle}>Credentials</h2>
@@ -266,13 +298,14 @@ export default function Overlay() {
             <h2 style={sectionHeadingStyle}>Links</h2>
 
             <div style={socialLinksWrapStyle}>
-              {SOCIAL_LINKS.map((link) => (
+              {SOCIAL_LINKS.map((link, idx) => (
                 <a
                   key={link.file}
+                  ref={socialRefs[idx]}
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ pointerEvents: opacities[1] > 0.5 ? "auto" : "none" }}
+                  style={{ pointerEvents: "none" }}
                 >
                   <img src={`/badges/${link.file}`} alt={link.name} title={link.name} style={socialLinkIconStyle} />
                 </a>
@@ -291,14 +324,15 @@ export default function Overlay() {
       </div>
 
       {/* View 3: Resume */}
-      <div style={{ ...baseStyle, opacity: opacities[2] }}>
+      <div ref={viewRefs[2]} style={{ ...baseStyle, opacity: 0 }}>
         <div style={panelStyle}>
           <h2 style={sectionHeadingStyle}>Resume</h2>
 
           <a
+            ref={resumeRef}
             href="/badges/Resume%20-%20Joshua%20Foxworth.pdf"
             download="Joshua-Foxworth-Resume.pdf"
-            style={{ ...resumeButtonStyle, pointerEvents: opacities[2] > 0.5 ? "auto" : "none" }}
+            style={{ ...resumeButtonStyle, pointerEvents: "none" }}
           >
             Download Resume (PDF)
           </a>
@@ -317,7 +351,7 @@ export default function Overlay() {
       </div>
 
       {/* View 4: Portfolio projects */}
-      <div style={{ ...baseStyle, opacity: opacities[3] }}>
+      <div ref={viewRefs[3]} style={{ ...baseStyle, opacity: 0 }}>
         <div style={panelStyle}>
           <h2 style={sectionHeadingStyle}>Projects</h2>
 
@@ -327,10 +361,11 @@ export default function Overlay() {
             Built with React, Next.js, Tailwind, PostgreSQL, Prisma, and AWS
           </p>
           <a
+            ref={cadwolfRef}
             href="https://www.cadwolf.com"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ ...linkStyle, fontSize: "0.9rem", pointerEvents: opacities[3] > 0.5 ? "auto" : "none" }}
+            style={{ ...linkStyle, fontSize: "0.9rem", pointerEvents: "none" }}
           >
             www.cadwolf.com
           </a>
@@ -341,10 +376,11 @@ export default function Overlay() {
             Built with React, Next.js, MUI, DynamoDB, EventBridge, SQS, and others
           </p>
           <a
+            ref={checkonmeRef}
             href="https://checkonme.co"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ ...linkStyle, fontSize: "0.9rem", pointerEvents: opacities[3] > 0.5 ? "auto" : "none" }}
+            style={{ ...linkStyle, fontSize: "0.9rem", pointerEvents: "none" }}
           >
             checkonme.co
           </a>
@@ -352,7 +388,7 @@ export default function Overlay() {
       </div>
 
       {/* View 5: Closing + contact */}
-      <div style={{ ...baseStyle, justifyContent: "flex-end", paddingBottom: "8vh", opacity: opacities[4] }}>
+      <div ref={viewRefs[4]} style={{ ...baseStyle, justifyContent: "flex-end", paddingBottom: "8vh", opacity: 0 }}>
         <h2 style={{ ...titleStyle, fontSize: "1.6rem", letterSpacing: "0.15em" }}>
           Joshua Foxworth
         </h2>
@@ -360,13 +396,14 @@ export default function Overlay() {
           Full Stack Developer, Data Engineer, Entrepreneur
         </p>
         <a
+          ref={mailtoRef}
           href="mailto:jfoxworth@cadwolf.com"
           style={{
             ...linkStyle,
             fontSize: "0.95rem",
             letterSpacing: "0.1em",
             margin: "0.6rem 0 0 0",
-            pointerEvents: opacities[4] > 0.5 ? "auto" : "none",
+            pointerEvents: "none",
           }}
         >
           jfoxworth@cadwolf.com

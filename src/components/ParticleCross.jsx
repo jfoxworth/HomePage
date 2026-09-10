@@ -16,7 +16,7 @@ export const CROSS = {
   armDepth: 0.9,
 }
 
-const PARTICLE_COUNT = 18000
+const PARTICLE_COUNT = 8000
 const TOP_COLOR = new THREE.Color('#bcd9ff')
 const BASE_COLOR = new THREE.Color('#ff9a52')
 
@@ -126,7 +126,7 @@ const CrossParticleMaterial = shaderMaterial(
       vec4 mvPosition = modelViewMatrix * vec4(driftedPosition, 1.0);
       float shimmer = 0.75 + 0.25 * sin(uTime * 1.6 + aPhase);
       // Clamp so points can't balloon into full-screen overdraw at close range.
-      gl_PointSize = clamp(aSize * shimmer * (uSize / -mvPosition.z), 1.0, 26.0);
+      gl_PointSize = clamp(aSize * shimmer * (uSize / -mvPosition.z), 1.0, 14.0);
       gl_Position = projectionMatrix * mvPosition;
     }
   `,

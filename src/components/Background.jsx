@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import { useFrame, extend } from '@react-three/fiber'
 import { useScroll, shaderMaterial, Sparkles } from '@react-three/drei'
-import { EffectComposer, Bloom, Noise, Vignette } from '@react-three/postprocessing'
+import { EffectComposer, Bloom, Vignette } from '@react-three/postprocessing'
 import * as THREE from 'three'
 
 export const FOG_COLOR = '#0d0912'
@@ -73,7 +73,7 @@ export default function Background() {
       <fogExp2 ref={fogRef} attach="fog" args={[FOG_COLOR, 0.035]} />
 
       <Sparkles
-        count={200}
+        count={90}
         scale={[14, 10, 14]}
         size={2}
         speed={0.15}
@@ -82,8 +82,7 @@ export default function Background() {
       />
 
       <EffectComposer>
-        <Bloom ref={bloomRef} mipmapBlur luminanceThreshold={0.4} luminanceSmoothing={0.25} intensity={MUTED_BLOOM} />
-        <Noise opacity={0.025} />
+        <Bloom ref={bloomRef} luminanceThreshold={0.4} luminanceSmoothing={0.25} intensity={MUTED_BLOOM} />
         <Vignette eskil={false} offset={0.25} darkness={0.9} />
       </EffectComposer>
     </>

@@ -15,7 +15,7 @@ export default function App() {
       <Canvas
         camera={{ fov: 35, near: 0.1, far: 120, position: [0, 0.6, 1.1] }}
         style={{ background: FOG_COLOR }}
-        dpr={[0.75, 1.5]}
+        dpr={[0.75, 1]}
         performance={{ min: 0.5 }}
         gl={{
           antialias: false,
