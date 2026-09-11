@@ -144,6 +144,12 @@ const resumeButtonStyle = {
 const JOBS = [
   {
     title: "Full Stack Developer",
+    company: "Cadwolf (My Startup)",
+    dates: "2016 – Present",
+    text: "Cadwolf is an advanced, AI assisted, structural engineering platform. It uses RAG, LLM, and other technologies to assist engineers in designing parts and building large structures.",
+  },
+  {
+    title: "Full Stack Developer",
     company: "Dallas Morning News (later Hearst) — Remote",
     dates: "Aug 2021 – May, 2026",
     text:"My work at DMN involved work across the full stack. This included front end work in React, back end work in postgres, AWS, and Mongo, and infrastrucutre work in AWS."
@@ -156,13 +162,7 @@ const JOBS = [
   },
   {
     title: "Full Stack Developer",
-    company: "Cadwolf (My Startup)",
-    dates: "2016 – Present",
-    text: "Cadwolf is an advanced, AI assisted, structural engineering platform.",
-  },
-  {
-    title: "Full Stack Developer — Personal Project",
-    company: "CheckOnMe.co",
+    company: "CheckOnMe.co (Personal Project)",
     dates: "Dec 2025 – Present",
     text: "CheckOnMe is a simple system that lets a user set up checks to ensure that they are OK after trips, hikes, dates, etc.",
   },
@@ -339,9 +339,9 @@ export default function Overlay() {
 
           {JOBS.map((job) => (
             <div key={job.title + job.company}>
-              <p style={itemNameStyle}>{job.title}</p>
+              <p style={itemNameStyle}>{job.company}</p>
               <p style={itemMetaStyle}>
-                {job.company}
+                {job.title}
                 {job.dates ? ` • ${job.dates}` : ""}
               </p>
               <p style={itemMetaStyle}>{job.text}</p>
