@@ -28,12 +28,36 @@ export const JOBS = [
     company: 'Dallas Morning News (later Hearst) — Remote',
     dates: 'Aug 2021 – May 2026',
     text: 'My work at DMN spanned the full stack: front end work in React, back end work in Postgres, AWS, and Mongo, and infrastructure work in AWS.',
+    details: [
+      {
+        heading: 'Data Engineering (solo projects)',
+        items: [
+          { name: 'Sportsgraf', text: 'Took in CSV files with data such as names, sports, positions, and schools. Extracted that data, performed data quality checks, and loaded the final data into databases for use in real-time high school sports displays and in calculations.' },
+          { name: 'IFX and Airtable', text: 'Real-time article creation and editorial data was streamed to infrastructure that extracted certain data, sent it to Airtable, and ran calculations on the statistics within it. Similar infrastructure sent data from Airtable back to our article system. This became how the entire paper’s editorial process was handled, and the data it generated was used to address future publication times and procedures.' },
+        ],
+      },
+      {
+        heading: 'Full Stack Development',
+        items: [
+          { text: 'Developed and maintained all aspects of the main site as well as supporting systems, using React, React Admin, Tailwind, Material UI, Node, Postgres, and GraphQL / Apollo APIs. Major front end projects included video integration within the site, live streaming a local sports station, and integrating multiple third party platforms.' },
+          { name: 'Sportsgraf', text: 'A system to take in, format, and display high school sports stats in the Dallas area. Coaches and staff logged in and entered play-by-play data for football, basketball, soccer, and other sports, and users could view those stats as well as schedules, standings, and more. A React Admin dashboard managed the data. I was one of a few developers who built the database and AWS infrastructure.' },
+          { name: 'Best in DFW', text: 'A reader voting system to select the favorite restaurants, bars, stores, and more in the area. It used Google Maps to display option locations, tracked votes in a Postgres database, and displayed results.' },
+          { name: 'Voter Guide', text: 'A system to display voting options and results. It read real-time results from AP sources on election days and displayed the results after the elections.' },
+        ],
+      },
+      {
+        heading: 'Logistics and Leadership',
+        items: [
+          { text: 'DMN ran agile sprints. I created Jira tickets when needed and participated in sprint planning, retros, and all other logistical aspects.' },
+        ],
+      },
+    ],
   },
   {
     title: 'React Developer',
     company: 'GoRadar — Remote Contract Work',
     dates: 'Jan 2021 – Jun 2021',
-    text: 'At GoRadar, I developed a React-Three-Fiber app that took in tens of thousands of points of data per second and displayed that in a 3D environment modeled after storefronts.',
+    text: 'GoRadar was a startup that took in real time data for a number of tags that were placed on numerous items in a store and tracked them in real time. I developed an algorithm to build three-dimensional rooms from textual data and then display that data in real time.',
   },
 ]
 

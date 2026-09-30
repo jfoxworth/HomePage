@@ -206,3 +206,13 @@ h1, h2, h3 { font-weight: 200; }
 
 /* ---------- badges ---------- */
 .badges img { display: block; width: 100%; height: auto; }
+
+/* ---------- job details ---------- */
+.job-details { margin-top: 1rem; }
+.job-group { margin-top: 1.25rem; }
+.job-group h4 { font-size: 0.95rem; font-weight: 400; letter-spacing: 0.06em; color: var(--text); margin-bottom: 0.5rem; }
+.job-group ul { list-style: none; }
+.job-group li { position: relative; padding-left: 1.1rem; font-size: 0.9rem; }
+.job-group li + li { margin-top: 0.6rem; }
+.job-group li::before { content: ''; position: absolute; left: 0; top: 0.65em; width: 5px; height: 5px; border-radius: 50%; background: var(--orange); }
+.job-group strong { font-weight: 400; color: var(--text); }

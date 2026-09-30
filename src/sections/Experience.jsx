@@ -28,6 +28,23 @@ export default function Experience() {
                 <h3>{job.company}</h3>
                 <p className="timeline-role">{job.title}</p>
                 <p>{job.text}</p>
+                {job.details && (
+                  <div className="job-details">
+                    {job.details.map((group) => (
+                      <div key={group.heading} className="job-group">
+                        <h4>{group.heading}</h4>
+                        <ul>
+                          {group.items.map((item, i) => (
+                            <li key={i}>
+                              {item.name && <strong>{item.name}: </strong>}
+                              {item.text}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             </Reveal>
           ))}
