@@ -218,3 +218,7 @@ h1, h2, h3 { font-weight: 200; }
 .job-group li + li { margin-top: 0.6rem; }
 .job-group li::before { content: ''; position: absolute; left: 0; top: 0.65em; width: 5px; height: 5px; border-radius: 50%; background: var(--orange); }
 .job-group strong { font-weight: 400; color: var(--text); }
+
+/* ---------- page mascot ---------- */
+.page-mascot { margin-top: 3rem; text-align: center; }
+.page-mascot img { display: inline-block; width: auto; max-width: 70%; height: clamp(180px, 40vw, 320px); }

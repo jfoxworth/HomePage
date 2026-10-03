@@ -20,6 +20,9 @@ export default function Education() {
           <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
           <p>© {new Date().getFullYear()} Joshua Foxworth</p>
         </Reveal>
+        <Reveal className="page-mascot" delay={200}>
+          <img src="/badges/onePM.png" alt="One Punch Man" loading="lazy" />
+        </Reveal>
       </div>
     </section>
   )
