@@ -8,6 +8,7 @@ export const CERTS = [
   { name: 'AWS Certified Solutions Architect – Associate', file: 'aws-certified-solutions-architect-associate.svg' },
   { name: 'AWS Certified Data Engineer – Associate', file: 'dataengineer.png' },
   { name: 'AWS Certified AI Practitioner', file: 'aws-certified-ai-practitioner.svg' },
+  { name: 'Claude Certified Architect – Foundations', file: 'claude_architect.png' },
 ]
 
 export const SOCIAL_LINKS = [
