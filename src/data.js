@@ -23,6 +23,24 @@ export const JOBS = [
     company: 'Engentic (My Startup)',
     dates: '2016 – Present',
     text: 'Engentic is an advanced, AI assisted, structural engineering platform. It uses RAG, LLM, and other technologies to assist engineers in designing parts and building large structures. (See Below)',
+    details: [
+      {
+        heading: 'AI Infrastructure',
+        items: [
+          { name: 'RAG - Retrieval Augmented Generation', text: 'The platform is built on documents similar to google docs, but with mathematics. Those documents are broken into components for text, equations, symbolic equations, plots, and other things. Those items are vectorized and stored. When a user wants to build a large structure in our part trees, similar designs / documents are found based on this content and used as a template.' },
+          { name: 'Generative AI', text: 'Documents, datasets, and part trees have an assistant that understands our platform and the mathematical functions available to it. Users can prompt that assistant to build documents from scratch, ask it about problems on a document, alter equations, or ask it the proper mathematical process to solve the problem. Users can choose what model to use.' },
+          { name: 'Agentic AI', text: 'Our part trees are places where structures are built. Users can build these structures piece by piece or by creating requirements documents, and prompting the AI to build it all. When this is done, an agentic workflow creates an agent to establish the parts to be designed and then creates an agent for the design of each part.' },
+        ]
+      },
+      {
+        heading: 'Development',
+        items: [
+          { name: 'React', text: 'Engentic is built on Next.js. In the era of vibe coding and AI, this is a massive project that requires experienced human involvement to keep it organized and working well.' },
+          { name: 'Equation Solvers', text: 'The largest single coding aspect of engentic is the equation solver. It accounts for units like meters vs inches, handles built in functions, and solves complicated mathematics in a devoted thread.' },
+          { name: 'Plots', text: 'The platform has a wide array of plots available to users. We use the plotly library for 2D and 3D plots.' },
+        ]
+      }
+    ]
   },
   {
     title: 'Full Stack Developer',
