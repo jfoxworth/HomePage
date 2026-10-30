@@ -22,7 +22,7 @@ export const JOBS = [
     title: 'Full Stack Developer, AI Engineer',
     company: 'Engentic (My Startup)',
     dates: '2016 – Present',
-    text: 'Engentic is an advanced, AI assisted, structural engineering platform. It uses RAG, LLM, and other technologies to assist engineers in designing parts and building large structures. (See Below)',
+    text: 'Engentic is an advanced, AI assisted, structural engineering platform. It uses RAG, generative AI, and agentic AI to assist engineers in designing parts and building large structures.',
     details: [
       {
         heading: 'AI Infrastructure',
